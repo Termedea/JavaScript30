@@ -67,6 +67,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* prevent divs from listening for click events */
+  pointer-events: none;
 }
 
 .panel p {
