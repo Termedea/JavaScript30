@@ -38,6 +38,7 @@ function reset() {
   isDrawing = false;
   ctx.lineWidth = 1;
 }
+function test() {}
 
 canvas.addEventListener('mousemove', draw);
 canvas.addEventListener('mousedown', (e) => {
